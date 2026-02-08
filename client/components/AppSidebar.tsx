@@ -8,8 +8,12 @@ import {
   SidebarGroupLabel,
   SidebarHeader,
   SidebarMenu,
+  SidebarMenuBadge,
   SidebarMenuButton,
   SidebarMenuItem,
+  SidebarMenuSub,
+  SidebarMenuSubButton,
+  SidebarMenuSubItem,
   SidebarSeparator,
 } from "@/components/ui/sidebar"
 
@@ -95,17 +99,20 @@ export function AppSidebar() {
                     <span>{project.title}</span>
                   </a>
                 </SidebarMenuButton>
+                {project.title==="Inbox" && (
+                  <SidebarMenuBadge>24</SidebarMenuBadge>
+                ) }
               </SidebarMenuItem>
             ))}
           </SidebarMenu>
         </SidebarGroup>
           
+        {/* ADD PROJECT */}
         <SidebarGroup>
           <SidebarGroupLabel>Projects</SidebarGroupLabel>
           <SidebarGroupAction>
             <Plus/> <span className="sr-only">Add Project</span>
           </SidebarGroupAction>
-
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem>
@@ -124,10 +131,8 @@ export function AppSidebar() {
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
-              
             </SidebarMenu>
           </SidebarGroupContent>
-
         </SidebarGroup>
         
         {/* COLLAPSIBLE */}
@@ -164,6 +169,40 @@ export function AppSidebar() {
           </SidebarGroup>
         </Collapsible>
 
+        {/* NESTED ITEMS */}
+        <SidebarGroup>
+          <SidebarGroupLabel>Nested Items</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild>
+                  <Link href="/#">
+                    <Projector/>
+                    See All Project
+                  </Link>
+                </SidebarMenuButton>
+                <SidebarMenuSub>
+                  <SidebarMenuSubItem>
+                    <SidebarMenuSubButton asChild>
+                      <Link href="/#">
+                      <Plus/>
+                      Add Project
+                      </Link>
+                    </SidebarMenuSubButton>
+                  </SidebarMenuSubItem>
+                  <SidebarMenuSubItem>
+                    <SidebarMenuSubButton asChild>
+                      <Link href="/#">
+                      <Plus/>
+                      Add Category
+                      </Link>
+                    </SidebarMenuSubButton>
+                  </SidebarMenuSubItem>
+                </SidebarMenuSub>
+              </SidebarMenuItem>
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
       </SidebarContent>
 
       
