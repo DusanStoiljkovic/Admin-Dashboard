@@ -6,11 +6,16 @@ This project is a responsive and scalable Admin Dashboard UI designed to simulat
 
 It focuses on:
 
-Clean component architecture
-Reusable UI patterns
-Modern dashboard layout
-Professional design system usage
-The goal was to build a production-style dashboard interface using modern frontend best practices.
+Clean component architecture,
+
+Reusable UI patterns,
+
+Modern dashboard layout,
+
+Professional design system usage,
+
+The goal was to build a production-style dashboard interface using modern frontend best practices
+
 
 🛠 Tech Stack
 
