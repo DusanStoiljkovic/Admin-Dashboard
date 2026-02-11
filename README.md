@@ -2,78 +2,25 @@
 
 📊 Admin Dashboard UI
 
-🌐 Live Demo:
-👉 https://admin-dashboard.dusanstoiljkovic.com/
+Problem:
+Need for a scalable and reusable admin interface suitable for real-world SaaS and internal tools.
 
-🧾 Overview
+Solution:
+Built a modern admin dashboard focused on clean UI, reusable components, and common admin workflows such as data management and overview screens.
 
-This project is a modern Admin Dashboard UI built using Next.js, shadcn/ui, and Tailwind CSS.
+Key Features:
+• Modular and reusable UI components
+• Scalable layout structure for future feature growth
+• Responsive design optimized for desktop and mobile
+• Clean state handling and component composition
 
-It simulates a real-world SaaS/admin interface and focuses on:
+Tech Stack:
+Next.js, React, shadcn/ui, Tailwind CSS
 
-Clean layout structure
+My Role:
+Designed the component architecture, implemented reusable UI patterns, and ensured consistent UX across the dashboard.
 
-Reusable UI components
-
-Modern design system usage
-
-Scalable frontend architecture
-
-This is a frontend-focused project designed to demonstrate professional dashboard implementation.
-
-🛠 Tech Stack
-Technology	Purpose
-Next.js	Framework & routing
-React	Component architecture
-TypeScript	Type safety
-Tailwind CSS	Styling
-shadcn/ui	UI component system
-Lucide Icons	Icon system
-✨ Features
-
-📌 Responsive dashboard layout
-
-📌 Sidebar navigation
-
-📌 Reusable card & table components
-
-📌 Form components
-
-📌 Badge & status indicators
-
-📌 Clean spacing & typography system
-
-📌 Dark mode ready design
-
-📌 Scalable folder structure
-
-🧠 What This Project Demonstrates
-
-✔ Component-driven development
-✔ Modern UI system integration (shadcn)
-✔ Clean and maintainable structure
-✔ Ability to build structured admin interfaces
-✔ Real-world dashboard layout patterns
-
-📂 Project Structure (Simplified)
-/app
-/components
-/components/ui
-/lib
-/public
-
-
-Organized for clarity, scalability, and maintainability.
-
-🎯 Purpose
-
-This project was built to showcase my ability to design and structure complex admin interfaces using modern React-based technologies.
-
-It represents production-style UI architecture and reusable component design.
-
-👨‍💻 Author
-
-Dušan Stoiljković
-🌐 Portfolio: https://www.dusanstoiljkovic.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/dusanstoiljkovic
+Live Demo:
+https://admin-dashboard.dusanstoiljkovic.com
+Problem: Need for a scalable and reusable admin interface suitable for real-world SaaS and internal tools. Solution: Built a modern admin dashboard focused on clean UI, reusable components, and common admin workflows such as data management and overview screens. Key Features: • Modular and reusable UI components • Scalable layout structure for future feature growth • Responsive design optimized for desktop and mobile • Clean state handling and component composition Tech Stack: Next.js, React, shadcn/ui, Tailwind CSS My Role: Designed the component architecture, implemented reusable UI patterns, and ensured consistent UX across the dashboard. Live Demo: https://admin-dashboard.dusanstoiljkovic.com
+Skills: Next.js · Tailwind CSS · Shadcn
