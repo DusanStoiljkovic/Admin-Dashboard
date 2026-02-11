@@ -1,59 +1,79 @@
-<img width="1919" height="997" alt="preview" src="https://github.com/user-attachments/assets/d9038dc6-bd02-444c-a824-a638ea714542" />
+<img width="1919" height="997" alt="preview" src="https://github.com/user-attachments/assets/cb3f6436-8105-4587-afe2-67378c89a111" />
 
-📌 About The Project:
+📊 Admin Dashboard UI
 
-This project is a responsive and scalable Admin Dashboard UI designed to simulate a real-world SaaS/admin panel interface.
+🌐 Live Demo:
+👉 https://admin-dashboard.dusanstoiljkovic.com/
 
-It focuses on:
+🧾 Overview
 
-Clean component architecture,
+This project is a modern Admin Dashboard UI built using Next.js, shadcn/ui, and Tailwind CSS.
 
-Reusable UI patterns,
+It simulates a real-world SaaS/admin interface and focuses on:
 
-Modern dashboard layout,
+Clean layout structure
 
-Professional design system usage,
+Reusable UI components
 
-The goal was to build a production-style dashboard interface using modern frontend best practices
+Modern design system usage
 
+Scalable frontend architecture
+
+This is a frontend-focused project designed to demonstrate professional dashboard implementation.
 
 🛠 Tech Stack
-
-Next.js
-React
-TypeScript
-Tailwind CSS
-shadcn/ui
-Lucide Icons
-
+Technology	Purpose
+Next.js	Framework & routing
+React	Component architecture
+TypeScript	Type safety
+Tailwind CSS	Styling
+shadcn/ui	UI component system
+Lucide Icons	Icon system
 ✨ Features
 
-Responsive dashboard layout
-Sidebar navigation
-Reusable UI components
-Cards, tables, badges, buttons
-Form components
-Dark mode ready design
-Clean and scalable folder structure
+📌 Responsive dashboard layout
+
+📌 Sidebar navigation
+
+📌 Reusable card & table components
+
+📌 Form components
+
+📌 Badge & status indicators
+
+📌 Clean spacing & typography system
+
+📌 Dark mode ready design
+
+📌 Scalable folder structure
 
 🧠 What This Project Demonstrates
 
-Ability to build real-world admin interfaces
-Component-driven architecture
-Modern UI system usage (shadcn)
-Clean layout structure for scalable apps
-Attention to UX and spacing consistency
+✔ Component-driven development
+✔ Modern UI system integration (shadcn)
+✔ Clean and maintainable structure
+✔ Ability to build structured admin interfaces
+✔ Real-world dashboard layout patterns
+
+📂 Project Structure (Simplified)
+/app
+/components
+/components/ui
+/lib
+/public
+
+
+Organized for clarity, scalability, and maintainability.
 
 🎯 Purpose
 
-This project was built to showcase my ability to:
-Design and structure complex UI layouts
-Work with modern React-based frameworks
-Build scalable frontend architecture
+This project was built to showcase my ability to design and structure complex admin interfaces using modern React-based technologies.
 
-📬 Contact
+It represents production-style UI architecture and reusable component design.
+
+👨‍💻 Author
 
 Dušan Stoiljković
-🌐 https://www.dusanstoiljkovic.com
+🌐 Portfolio: https://www.dusanstoiljkovic.com
 
 🔗 LinkedIn: https://www.linkedin.com/in/dusanstoiljkovic
